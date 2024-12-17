@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    
+</head>
+<body>
+   <label>age</label>
+    <input type="text" id="txt"  ><br><br>
+
+   <label>height</label> 
+     <input type="text" id="height"><br><br>
+
+   <label>weight</label>
+    <input type="text" id="wait"><br><br>
+   
+<button onclick="show()">submit</button>
+    
+<script>
+  function show()
+  {
+   var age =parseInt(document.getElementById("txt").value);
+if(age>=18 && age<=70)
+{
+  alert("you are eligibel to fill this form")
+}
+else {
+  alert("you are not eligibel to fill this form")
+}
+}
+
+</script>
+</body>
+</html>

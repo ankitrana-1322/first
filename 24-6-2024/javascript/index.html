@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+     function show()
+     {
+       var song =document.getElementById("songs");
+       var aud=document.getElementById("ad");
+       aud.src=songs.value;
+     }
+    </script>
+</head>
+<body>
+    <div id="box">
+    <select id="songs" onchange="show()">
+        <option disabled selected id="select">select audio</option>
+        <option value="give me some sunshine.mp3">sunshine</option>
+        <option value="Sanam Teri Kasam .mp3">sanam teri kasam</option>
+        <option value="check it out.mp3">check it out</option>
+    </select>
+    <audio controls id="ad" style="margin-top: 96px; background-color: black;"></audio>
+</div>
+</body>
+</html>

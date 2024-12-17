@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+           var i=0,id;
+        function show()
+        {
+            var x=document.getElementById("para");
+            x.innerText=x.innerText + "hello" ;
+            i++
+            if(i>5)
+        {
+            clearTimeout(id);
+        }
+        }
+    </script>
+</head>
+<body onhand="show()">
+    <p id="para"></p>
+</body>
+</html>

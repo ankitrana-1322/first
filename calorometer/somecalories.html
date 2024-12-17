@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <input type="checkbox" name="abc" value="1">apple
+    <input type="checkbox" name="abc" value="3">orange
+    <input type="checkbox" name="abc" value="5">banana
+    <input type="checkbox" name="abc" value="4">lichi
+    <input type="checkbox" name="abc" value="2">mango
+    <input type="checkbox" name="abc" value="1.5">grapes <br><br>
+
+    <button onclick="show()">check</button> 
+
+
+    <script>
+        function show()
+      
+        {
+         var x=document.getElementsByName("abc");
+         var sum=1;
+         for(let i of x){
+            if(i.checked){
+                sum*=parseInt(i.value);
+            }
+         }
+         document.write("you gained ",sum," calories");
+        }
+    </script>
+</body>
+</html>

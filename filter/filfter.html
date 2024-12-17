@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .good{
+            width:300px;
+            height:300px;
+            
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="good" id="show"></div>
+
+    <button onclick="get()">click</button>
+
+     <script> 
+     function get(){
+        var x = document.getElementById("show");
+        x.style.backgroundColor= "red";
+     }
+          
+     </script>
+</body>
+</html>

@@ -1,0 +1,83 @@
+.head{
+    text-align: center;
+    border: 2px solid black;
+    margin-left: 27%;
+    margin-right: 27%;
+    word-spacing: 8px;
+    background-color: rgb(204, 200, 200);
+}
+.main{
+    text-indent: 90px;
+    text-align:justify;
+   letter-spacing: 2px;
+   word-spacing: 8px;
+   line-height: 25px;
+    padding :10px 10px 10px 10px ;
+}
+.technique{
+    margin-left: 5%;
+    width: 40%;
+    color: aliceblue;
+text-align:justify;
+padding: 10px 10px 10px 10px;
+border: 8px solid rgb(255, 255, 255);
+background-color: rgb(12, 12, 12);
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+outline: 4px inset black;
+
+}
+.fast{
+    text-align: center;
+    border: 2px solid white;
+    background-color: rgb(221, 198, 24);
+    margin: 0px 100px 0px 100px;
+}
+.data{
+    width: 580px;
+    height: 200px;
+   /* margin-left: 25%; */
+   margin-top: 20px;
+}
+.technology{
+    margin-left: 50%;
+    margin-top: 20px;
+    width: 40%;
+    color: aliceblue;
+text-align:justify;
+padding: 10px 10px 10px 10px;
+border: 8px solid rgb(255, 255, 255);
+background-color: rgb(12, 12, 12);
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+outline: 4px inset black;
+}
+
+.inttter{
+    width: 580px;
+    height: 200px;
+   /* margin-left: 25%; */
+   margin-top: 20px;
+}
+
+.slow{
+    text-align: center;
+    border: 2px solid white;
+    background-color: rgb(221, 198, 24);
+    margin: 0px 100px 0px 100px;
+}
+.phone{
+    margin: 20px 50px 20px 50px;
+   width: 500px;
+   height: 350px;
+   /* border: 2px solid black;
+   background-color: black; */
+
+}
+.book{
+    color: rgb(0, 0, 0);
+    padding: 0px 10px 10px 20px;
+    font-style: oblique;
+    text-align: justify;
+    letter-spacing: 2px;
+    word-wrap: 8px;
+    background-color: pink;
+}

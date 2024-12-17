@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+  function show()
+  {
+    var x=document.getElementById("bulb");
+    var y=document.getElementById("btn")
+    if(y.value=="light off")
+  {
+    x.src="bulb.2.2.jpg";
+    y.value="light on"
+  }
+  else{
+    x.src="bulb.1.1.jpg";
+    y.value="light off"
+  }
+  }
+    </script>
+</head>
+<body>
+ <img src="bulb.1.1.jpg" id="bulb" >
+ <input type="button" value="light off" onclick="show()" id="btn">
+</body>
+</html>

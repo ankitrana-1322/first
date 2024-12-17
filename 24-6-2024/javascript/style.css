@@ -1,0 +1,13 @@
+#songs{
+   background-color: black;
+   color: white;
+   border-radius: 20px;
+   width: 50%;
+   height: 50px;
+   font-size: larger;
+   }
+#box{
+    background-color:  rgb(50, 174, 52);
+    width: 20%;
+    height: 300px;
+}

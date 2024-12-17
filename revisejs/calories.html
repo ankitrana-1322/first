@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calories.css">
+    <title>Document</title>
+    
+</head>
+<body>
+    <div class="containor">
+       <div class="cont1">
+        <p class="txt">Modify the values and click the calculator button to use</p>
+       </div>
+       <div class="item">
+       <div class="items1">US Units</div>
+       <div class="items">Metric Units</div>
+       <div class="items1">OtherUnits</div>
+    </div>
+
+    <div class="cont2">
+  <form class="data"><br> 
+
+    <label>Age</label>
+    <input type="text" id="txtboxage"> 
+   
+
+    <label>ages 15-80</label><br><br>
+    <label>Gender</label>
+    <input type="radio" name="point">male
+    <input type="radio" name="point">female<br><br>
+
+    <label>Height</label><input type="text" class="txtbox" id="txtboxage"><br><br>
+    <label>Weigth</label><input type="text" class="txtbox"><br><br>
+    <label>Activity</label><input type="text" class="txtboxlast"><br><br>
+   </form>
+
+   <input type="button" value="calculate" id="calculate"> 
+    </div>
+    </div>
+  
+    <button onclick="show()">submit</button>
+
+
+    <script>
+      function show()
+      {
+        var age=parseInt(document.getElementById("txtboxage").value);
+        if(age>18 && age<80)
+      {
+        alert("you are eligibel to fill this form");
+      }
+      else {alert("you are not eligibel to fill this form");}
+      }
+    </script>
+</body>
+</html>

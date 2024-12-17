@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var i=0;
+        function again()
+        {
+            if (i>5)
+            {
+             i=0
+            }
+            var images=["tom.jpg","jerry.jpg","doremon.jpg","nobita.jpeg","shizuka.jpeg","suneo.jpg","jiyan.jpg"];
+            var x=document.getElementById("pic");
+            x.src=images[i];
+            i++
+            setTimeout("show()",1500);
+        }
+
+    </script>
+</head>
+<body>
+    <img src="tomjerry.jpg" id="pic" style="width: 20%;">
+    <input type="button" value="next" onclick="again()">
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        var x,num1,op,num2,res;
+        function show(y)
+        {
+        x=document.getElementById("txt");
+            x.value=x.value+y;
+        }
+        function opr(o)
+        {
+            num1=x.value;
+            op=o;
+            x.value="";
+        }
+        function equal()
+        {
+            num2=x.value;
+            if(op=='+')
+        {
+            res=parseInt(num1)+parseInt(num2);
+            x.value=res;
+        }
+        else if(op=='-'){
+            res=parseInt(num1)-parseInt(num2);
+            x.value=res;
+        }
+        else if(op=='/')
+        {
+           res= parseInt(num1)/parseInt(num2);
+            x.value=res;
+        }
+        
+        else if(op=='*')
+        {
+           res= parseInt(num1)*parseInt(num2);
+            x.value=res;
+        }
+        }
+    </script>
+</head>
+<body>
+    <div style="width: 14%; border: 2px solid black; background-color: rgb(50, 203, 44);">
+    <form>
+        <input type="text" id="txt"><br><br>
+        <input type="button" value="1" onclick="show(1)" class="num border">
+        <input type="button" value="2" onclick="show(2)"class="num border">
+        <input type="button" value="3" onclick="show(3)"class="num border"><br><br>
+        <input type="button" value="4" onclick="show(4)"class="num border">
+        <input type="button" value="5" onclick="show(5)"class="num border">
+        <input type="button" value="6" onclick="show(6)"class="num border"><br><br>
+        <input type="button" value="7" onclick="show(7)"class="num border">
+        <input type="button" value="8" onclick="show(8)"class="num border">
+        <input type="button" value="9" onclick="show(9)"class="num border"><br><br>
+        <input type="button" value="0" onclick="show(0)"class="num1 border"><br><br>
+        <input type="button" value="+" onclick="opr('+')"class="num2 border">
+        <input type="button" value="-" onclick="opr('-')"class="num2 border">
+        <input type="button" value="*" onclick="opr('*')"class="num2 border">
+        <input type="button" value="/" onclick="opr('/')"class="num2 border">
+        <input type="button" value="=" onclick="equal()"class="num2 border">
+        
+    </form>
+</div>
+
+</body>
+</html>

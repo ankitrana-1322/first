@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var i=0;
+        function show()
+        {
+            if (i>3){
+               i=0;
+            }
+            var colour=["download nature.jpeg","download 2.jpeg","download 3.jpeg","download.jpeg"];
+            var x=document.getElementById("box");
+            x.src=colour[i];
+            i++;
+            setTimeout("show()",1000);
+        }
+    </script>
+</head>
+<body>
+   <img src="download nature.jpeg" id="box">
+    <input type="button" value="start" onclick="show()">
+ <input type="button" value="stop" onclick="show()">
+</body>
+</html>

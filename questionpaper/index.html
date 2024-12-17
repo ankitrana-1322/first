@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <title>Document</title>
+     <script>
+      function show()
+      {
+       
+        var id=["a","b","c","d","e"];
+        var ans=["delhi","corporate tax","Arunanchal Pradesh","shilla","z-index"];
+        var i,j,marks=0;
+        for(i=0;i<=4;i++)
+       {
+         var x=document.getElementsByName(Name[i]);
+         for(j=0;j<=3;j++)
+          {
+            if(x[j].check)
+             {
+              if(x[j].value==ans[i])
+               {
+                 marks++;
+               }
+             }
+          }
+          document.write("your score is" +marks);
+       }
+      }
+     </script>
+</head>
+<body>
+    <h2> Q1.which state has maximum population ?</h2>
+    <input type="radio" value="delhi" name="a"><label>delhi</label><br>
+    <input type="radio" value="goa" name="a"><label>goa</label><br>
+    <input type="radio" value="sikhim" name="a"><label>sikhim</label><br>
+    <input type="radio" value="nagaland" name="a"><label>nagaland</label><br>
+
+    <h2> Q2.Tax that is paid by companies from the revenue they earn is called ?</h2>
+    <input type="radio" value="corporate tax" name="b"><label>corporate tax</label><br>
+    <input type="radio" value="valuegraintax" name="b"><label>valuegraintax</label><br>
+    <input type="radio" value="perquisite tax" name="b"><label>perquisite tax</label><br>
+    <input type="radio" value="hebda tax" name="b"><label>hebda tax</label><br>
+    
+    <h2> Q3.which state has minimum population density?</h2>
+    <input type="radio" value="Arunanchal Pradesh" name="c"><label>Arunanchal Pradesh</label><br>
+    <input type="radio" value="goa" name="c"><label>goa</label><br>
+    <input type="radio" value="jk" name="c"><label>jk</label><br>
+    <input type="radio" value="nagaland" name="c"><label>nagaland</label><br>
+
+    <h2> Q4.which one is the highest mouintain in hp ?</h2>
+    <input type="radio" value="kailash" name="d"><label>kailash</label><br>
+    <input type="radio" value="pirpanjal" name="d"><label>pirpangil</label><br>
+    <input type="radio" value="shilla" name="d"><label>shilla</label><br>
+    <input type="radio" value="shipki" name="d"><label>shipki</label><br>
+
+    <h2> Q5.which properety is used for overlaping of divs ?</h2>
+    <input type="radio" value="position" name="e"><label>position</label><br>
+    <input type="radio" value="z-index" name="e"><label>z-index</label><br>
+    <input type="radio" value="hover" name="e"><label>hover</label><br>
+    <input type="radio" value="display" name="e"><label>display</label><br>
+
+    <input type="button" value="submit" onclick="show()"/>
+</body>
+</html>

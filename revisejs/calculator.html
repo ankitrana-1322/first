@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var num1,num2,res,x,op;
+        function show(y)
+        {
+          x=document.getElementById("txt");
+        x.value=x.value+y;
+        }
+        function opr(o)
+        {
+           num1=x.value;  
+           op=o;
+           x.value=""; 
+        }
+        function equal()
+        {
+        num2=x.value;
+        if(op=='+')
+        {
+        res=parseInt(num1)+parseInt(num2);
+        x.value=res;
+        }
+        else if(op=='-')
+        {
+            res=parseInt(num1)-parseInt(num2);
+        x.value=res;
+        }    
+        
+        else if(op=='*')
+        {
+            res=parseInt(num1)*parseInt(num2);
+        x.value=res;
+        }    
+        
+        else if(op=='/')
+        {
+            res=parseInt(num1)/parseInt(num2);
+        x.value=res;
+        }    
+    }
+    </script>
+</head>
+<body>
+       <div style="width: 13%; height: 270px; border: 2px solid black;">
+
+   <form>
+
+   <input type="text" id="txt"><br><br>
+   <input type="button" value="1" onclick="show(1)">
+   <input type="button" value="2" onclick="show(2)">
+   <input type="button" value="3" onclick="show(3)"><br><br>
+   <input type="button" value="4" onclick="show(4)">
+   <input type="button" value="5" onclick="show(5)">
+   <input type="button" value="6" onclick="show(6)"><br><br>
+   <input type="button" value="7" onclick="show(7)">
+   <input type="button" value="8" onclick="show(8)">
+   <input type="button" value="9" onclick="show(9)"><br><br>
+   <input type="button" value="0" onclick="show(0)"><br><br>
+   <input type="button" value="+" onclick="opr('+')">
+   <input type="button" value="-" onclick="opr('-')">
+   <input type="button" value="*" onclick="opr('*')">
+   <input type="button" value="/" onclick="opr('/')"><br><br>
+   <input type="button" value="=" onclick="equal()">
+</form>
+</div>
+</body>
+</html>

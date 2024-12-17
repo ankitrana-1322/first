@@ -1,0 +1,676 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.border{
+    border: 1px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+#containor{
+    width: 100%;
+    height: 75px;
+    background-color: #0d121af4;
+    display: flex;
+    justify-content:space-between ;
+}
+.item1{
+    width: 10%;
+    height: 60px;
+}
+.img{
+    width: 100%;
+    height:96px;
+}
+.item2{
+    width:13%;
+    height: 70px;
+}
+.text{
+    color: rgb(192, 190, 190);
+    font-size: small;
+}
+.addr{
+    margin-top: 15px;
+}
+.text2{
+    color: white;
+    font-size: large;
+    font-weight: 700;
+}
+.item3{
+    width: 45%;
+    height: 70px;
+    display:flex;
+}
+.small1{
+    width: 10%;
+    height: 50px;
+    margin-top: 9px;
+    border-radius: 4px;
+}
+.option{
+   height: 50px;
+   width: 100%;
+   background-color: rgb(240, 240, 240);
+   border-radius: 4px;
+   font-size: larger;
+}
+.small2{
+    width: 90%;
+    height: 50px;
+    margin-top: 9px;
+}
+.search{
+    width: 100%;
+    height: 50px;
+    font-size:20px;
+}
+.small3{
+    width: 10%;
+    height: 50px;
+    background-color: rgb(230, 174, 72);
+    border-radius: 3px;
+    margin-top:9px;
+}
+.icon{
+    text-align: center;
+    margin-top: 15px;
+    font-size: larger;
+}
+.item4{
+    width: 30%;
+    display: flex;
+    margin-left: 10px;
+}
+.other1{
+    width:18% ;
+    height: 70px;
+    display: flex;
+}
+.flg{
+    width: 49%;
+    height: 40px;
+    background-image: url("india.png");
+    background-size: cover;
+    margin-top: 15px;
+}
+.lan{
+    width:51%;
+    height:50px;
+}
+.language{
+    width: 100%;
+    height: px;
+    background-color: #0d1a1a;
+    margin-top: 25px;
+    color: white;
+    font-weight: 700;
+}
+.other2{
+    width:30% ;
+    height: 70px;
+    margin-left: 10px;
+}
+.text3{
+    color: rgb(192, 190, 190);
+    font-size: small;
+}
+.sign{
+    margin-top: 15px;
+}
+
+.text4{
+    color: white;
+    font-size: large;
+    font-weight: 600;
+}
+.other3{
+    width:20% ;
+    height: 70px;
+    margin-left: 10px;
+}
+.text3{
+    color: rgb(192, 190, 190);
+    font-size: small;
+}
+.exchange{
+    margin-top: 15px;
+}
+
+.text4{
+    color: white;
+    font-size: large;
+    font-weight: 600;
+}
+
+.other4{
+    width:24% ;
+    height: 70px;
+    margin-left: 10px;
+    display: flex;
+}
+.crt{
+width: 50%;
+height: 50px;
+background-image: url("images.png");
+background-color: #0d1a1a;
+background-size: cover;
+margin-top: 9px;
+}
+.text5{
+    color: white;
+    font-size: large;
+    font-weight: 600;
+    margin-top: 30px;
+}
+.containor2{
+    width: 100%;
+    height: 39px;
+    background-color: #010e1ed7;
+    display:flex;
+    justify-content: space-evenly;
+}
+.mini{
+    margin-left: 10px;
+    margin-top: 8px;
+    color: white;
+    font-size: large;
+}
+#box{
+    width: 100%;
+    position:absolute;
+  
+}
+.off{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(15, 120, 82);
+}
+.offer{
+    width:23%;
+    margin-top: 320px;
+    position: relative;
+  }
+  .fashion{
+    width: 100%;
+    background-color: rgb(227, 225, 225);
+}
+
+  .text6{
+    margin-left: 60px;
+    font-size:xx-large;
+  }
+  .fash{
+    background-color: white;
+    margin-top: 20px;
+    width: 97.9%;
+    margin-left: 17px;
+  }
+  .dresses{
+    width: 98%;
+    height: 315px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 17px;
+    display: flex;
+  }
+  .border1{
+    border: 1px solid transparent;
+}
+.border1:hover{
+    border: 1px solid black;
+}
+  .dress{
+    width: 20%;
+    height: 310px;
+  }
+  .dress2{
+    width: 50%;
+    height: 310px;
+  }
+
+  .dress3{
+    width: 40%;
+    height: 310px;
+  }
+  .dress1{
+    width: 40%;
+    height: 310px;
+  }
+.kitchenproduct{
+    width: 97.9%;
+    height: 315px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 17px;
+    display: flex;
+}
+.kitchen{
+    width: 40%;
+    height: 310px;
+}
+.anker{
+    font-size:medium;
+}
+#box2{
+    width: 98%;
+    height: 350px;
+    margin-top: 30px;
+    margin-left: 17px;
+}
+.containor3{
+    width: 98%;
+    height: 500px;
+    margin-left: 17px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(227, 225, 225);
+}
+.smallbox{
+    width: 24%;
+    height: 500px;
+    background-color: white;
+}
+.text7{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.squarecont{
+    width: 100%;
+    height: 400px;
+    display:grid;
+    gap: 5px;
+    column-gap: 15px;
+    grid-template-columns:1fr 1fr;
+}
+.minicont{
+    width: 100%;
+    height: 173px;
+}
+
+.smallbox2{
+    background-color: white;
+}
+
+.text8{
+    /* margin-left: 40px; */
+    margin-top: 20px;
+}
+.seemore{
+    font-size: larger;
+    font-weight: 600;
+    color:rgb(0, 128, 107);
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.containor4{
+    width: 97.9%;
+    height: 315px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 17px;
+    display: flex;
+}
+.girlsdress{
+    width: 14.28%;
+    height: 310px;
+}
+.containor5{
+    width: 97.9%;
+    height: 315px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 17px;
+    display: flex;
+  
+}
+.girlsdresssim{
+    width: 14.28%;
+    height: 310px;
+}
+.containor6{
+    width: 97.9%;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 17px;
+    display: flex;
+}
+.grocery{
+    width: 14.28%;
+    height: 290px;
+}
+.containor7{
+    width: 97.9%;
+    height: 550px;
+    background-color: rgb(227, 225, 225);
+    margin-left: 17px;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.shoping{
+    width: 24%;
+    height: 550px;
+    background-color: white;
+ }
+.fourbox{
+    width: 100%;
+    height: 450px;
+     display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: white;
+}
+.shopcont{
+   width: 80%;
+   height:160px;
+   margin-left: 10px;
+}
+.text9{
+    margin-left: 20px;
+}
+.text7a{
+    margin-top: 20px;
+   text-align: center;
+   background-color: white;
+}
+.fourbox1{
+    width: 100%;
+    height: 440px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.mobiles{
+    width: 100%;
+    height: 220px;
+}
+.tshirt{
+    width: 90%;
+    height: 440px;
+    margin-left: 22px;
+}
+.discount{
+    width: 97.9%;
+    height: 400px;
+    margin-top: 20px;
+    margin-left: 17px;
+    background-color: white;
+}
+.topoffers{
+    width: 97.9%;
+    height: 340px;
+    margin-left: 7px;
+    display: flex;
+    justify-content: space-between;
+}
+.bestdeal1{
+    margin-top: 10px;
+    width: 31%;
+}
+.bestdeal{
+    width:11.33%;
+    height: 340px;
+    /* border: 1px solid rgb(161, 161, 161); */
+    margin-left: 20px;
+    border-radius: 5px;
+}
+.panoffer{
+    margin-left: 15px;
+}
+.text81{
+    text-decoration: line-through;
+    margin-left: 10px;
+    color: red;
+    font-weight: bold
+}
+.supervalueday{
+    width: 97.9%;
+    height: 580px;
+    margin-top: 20px;
+    margin-left: 17px;
+    /* background-color: white; */
+    display: flex;
+    justify-content: space-between;
+}
+.superday{
+    width: 24%;
+    height: 580px;
+    background-color: white;
+}
+.text9{
+    margin-top: 20px;
+    text-align:start;
+}
+.limit{
+    width: 40%;
+    height: 35px;
+    background-color: rgb(203, 29, 58);
+    color: white;
+    margin: 20px 0 0 20px;
+    padding-top:8px ;
+    padding-left: 5px;
+    font-size: larger;
+    }
+.text10{
+    font-weight: 500;
+    margin-top: 10px;
+    display: inline-flex;
+}
+.cart{
+    width: 50%;
+    height: 40px;
+    background-color: yellow;
+    border-radius: 15px;
+    margin: 20px 0 0 20px;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.containor8{
+    width: 97.9%;
+    height: 525px;
+    background-color: rgb(227, 225, 225);
+    margin-top: 20px;
+    margin-left: 17px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.customer{
+    width: 24%;
+    height: 525px;
+    background-color: white;
+}
+.text11{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.market{
+    width: 90%;
+    height: 400px;
+    display: grid;
+    gap: 5px;
+    column-gap: 15px; 
+    grid-template-columns:1fr 1fr;
+    margin-left: 20px;
+}
+.containor9{
+    width: 97.9%;
+    height: 350px;
+    background-color: white;
+    margin: 20px 0 0 17px;
+}
+.watch{
+    width: 100%;
+    height:300px;
+    display: flex;
+    justify-content: space-between;
+}
+.watches{
+width:14%;
+height: 300px;
+}
+
+.containor10{
+    width: 97.9%;
+    height: 300px;
+    background-color: white;
+    margin: 20px 0 0 17px;
+}
+.watchs{
+    width: 100%;
+    height:250px;
+    display: flex;
+    justify-content: space-between;
+}
+.watche{
+width:14%;
+height: 250px;
+}
+
+.visited{
+    width: 100%;
+    height: 530px;
+    margin-top: 20px;
+    /* margin-left: 17px; */
+    background-color: white;
+}
+.reach{
+    width:13.33%;
+    height: 470px;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+.txtprice{
+    margin-left: 15px;
+    color:rgb(0, 128, 107);
+    
+}
+.text81{
+    text-decoration: line-through;
+    margin-left: 10px;
+    color: red;
+    font-weight: bold
+}
+.signin{
+    height: 150px;
+    width: 100%;
+    background-color: white;
+}
+.see{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+}
+.cntr{
+    font-size: larger;
+    margin-top: 8px;
+}
+.centre{
+    width: 300px;
+    height: 35px;
+    border-radius: 10px;
+    border: 0px solid  rgb(31, 107, 229);
+    font-size: larger;
+    font-weight: bold;
+    background-color: rgb(250, 201, 22);;
+}
+.newhere{
+    margin-top: 10px;
+}
+.back{
+    width: 100%;
+    height: 65px;
+    background-color: #35475d;
+    padding-left: 48%;
+    padding-top: 24px;
+}
+.top{
+    color: white;
+    text-decoration: none;
+    font-size: large;
+}
+.footer{
+    width: 100%;
+    height:450px;
+    background-color: #232f3E;
+    display: flex;
+    justify-content:center;
+}
+.footerbox{
+   width: 15%;
+   margin-top: 50px;
+   color: white;
+}
+.tops{
+    color: rgb(235, 232, 232);
+    text-decoration: none;
+    font-size: large;
+    font-weight: 300;
+}
+.txt13{
+    font-size: x-large;
+}
+.footer3{
+    width: 100%;
+    height: 130px;
+    background-color: #232f3E;
+    display: flex;
+    justify-content: center;
+}
+.logolan{
+    margin-top: 30px;
+    height: 100px;
+    width: 10%;
+}
+.lang{
+    width: 10%;
+  
+}
+.selection{
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 100%;
+    height: 40px;
+    background-color: #232f3E;
+    color: white;
+}
+.india{
+    width: 23%;
+    height: 40px;
+    margin-left: 10px;
+}
+.flag{
+    width: 8%;
+    height: 40px;
+    border: 1px solid rgb(143, 142, 142);
+    display: flex;
+    margin-top: 50px;
+    margin-left: 60px;
+}
+.lastfooter{
+    width: 100%;
+    height: 180px;
+    background-color: #131a22;
+    justify-content:center;
+    display: flex;
+}
+.txt14{
+    font-size: medium;
+}
+.topsic{
+    color: rgb(175, 175, 175);
+    text-decoration: none;
+    font-size:medium;
+}
+.copyright{
+    background-color: #131a22;
+    width: 100%;
+    height: 100px;
+    color: white;
+    padding-top: 40px;
+    text-align: center;
+}

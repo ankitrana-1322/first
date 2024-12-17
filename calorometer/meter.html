@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <select id="fruits">
+
+        <option disabled selected >item consumed</option>
+        <option value="3" >banana</option>
+        <option value="1">apple</option>
+        <option value="2">orange</option>
+        <option value="1.5">lichi</option>
+        <option value="2">gava</option>
+   </select><br><br>
+ 
+<label>no. of items</label><input type="text" id="txt">
+<button  onclick="show()" > check </button>
+
+<script>
+  function show()
+  {
+    var x=parseInt(document.getElementById("fruits").value);
+    var y=parseInt(document.getElementById("txt").value);
+    var i=x*y;
+    alert("you gained "+i+ " calories");
+  }
+</script>
+</body>
+</html>
